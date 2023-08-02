@@ -724,6 +724,13 @@ nav a:hover::before {
 /* REPONSIVE */
 
 @media (max-width: 991px) {
+  h2 {
+        font-size: 18px;
+    }
+    .container-fluid {
+        padding: 10px;
+    }
+}
 
 	nav ul {
   		margin-left: 25px;
