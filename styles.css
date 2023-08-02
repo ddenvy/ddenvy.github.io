@@ -52,6 +52,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 36px;
+  text-align: center; /* Выравниваем заголовок по центру */
 }
 
 h2 {
@@ -59,6 +60,12 @@ h2 {
   border-bottom: 2px solid #333;
   padding-bottom: 5px;
   margin-bottom: 20px;
+  text-align: center; /* Выравниваем подзаголовок по центру */
+}
+
+.project h3 {
+  font-size: 24px;
+  text-align: center; /* Выравниваем заголовки проектов по центру */
 }
 
 .project {
