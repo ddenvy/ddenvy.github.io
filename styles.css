@@ -99,11 +99,14 @@ video {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.media img {
-  max-width: 300px;
-  border: 1px solid #ccc;
+.media img,
+.media video {
+  width: 100%; /* Принудительно устанавливаем ширину на 100% от контейнера */
+  max-width: 300px; /* Максимальная ширина изображения (можно увеличить по желанию) */
+  height: auto; /* Автоматически вычисляем высоту, чтобы сохранить пропорции */
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 section h2, section h3 {
