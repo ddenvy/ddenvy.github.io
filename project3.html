@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-         <!-- Open Graph -->
-      <meta property="og:title" content="Danil Lobanov - Level designer" />
-      <meta property="og:description" content="A Level designer and Unity developer with experience in gamedev." />
-      <meta property="og:image" content="https://i.postimg.cc/x8ZGNLf8/2024-02-19-16-31-53.png" />
-      <meta property="og:url" content="https://ddenvy.github.io" />
-      <meta property="og:type" content="website" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- Open Graph -->
+  <meta property="og:title" content="Danil Lobanov - Level designer" />
+  <meta property="og:description" content="A Level designer and Unity developer with experience in gamedev." />
+  <meta property="og:image" content="https://i.postimg.cc/x8ZGNLf8/2024-02-19-16-31-53.png" />
+  <meta property="og:url" content="https://ddenvy.github.io" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Danil Lobanov - Level designer" />
+  <meta name="twitter:description" content="A Level designer and Unity developer with experience in gamedev." />
+  <meta name="twitter:image" content="https://i.postimg.cc/x8ZGNLf8/2024-02-19-16-31-53.png" />
+  <meta name="twitter:url" content="https://ddenvy.github.io" />
     
-      <!-- Twitter -->
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Danil Lobanov - Level designer" />
-      <meta name="twitter:description" content="A Level designer and Unity developer with experience in gamedev." />
-      <meta name="twitter:image" content="https://i.postimg.cc/x8ZGNLf8/2024-02-19-16-31-53.png" />
-      <meta name="twitter:url" content="https://ddenvy.github.io" />
-        
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/utilities.css" />
-      </head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+</head>
+
   <body>
     <header id="hero">
       <!-- Navbar -->
@@ -29,7 +30,7 @@
           <!-- Logo -->
           <h1 id="logo">
             <a href="index.html#"
-              ><img src="./assets/logo.png" alt="Your Logo"
+              ><img src="./assets/header/logo.png" alt="Your Logo"
             /></a>
           </h1>
           <!-- Navbar links -->
@@ -50,8 +51,8 @@
             <div class="theme-switch">
               <input type="checkbox" id="switch" />
               <label class="toggle-icons" for="switch">
-                <img class="moon" src="assets/moon.svg" />
-                <img class="sun" src="assets/sun.svg" />
+                <img class="moon" src="assets/header/moon.svg" />
+                <img class="sun" src="assets/header/sun.svg" />
               </label>
             </div>
             <!-- Hamburger menu -->
@@ -63,46 +64,62 @@
           </div>
         </div>
       </nav>
-
-      <section class="header-container">
-        <img
+      <!-- Self-intro -->
+      <!--
+        <section class="header-container">
+          <img
           class="profile-image"
           src="assets/profile-image.jpg"
           alt=""
-        />
-        <h1>Hi I'm Danny</h1>
-        <h1>嗨，我是达尼</h1>
+          />
 
-        <div class="content-text">
-          <h2>Create game worlds </h2>
-          <h2>创造游戏世界 </h2>
+          <h1>Hi I'm Danny</h1>
+          <h1>嗨，我是达尼</h1>
 
-          <p>
-            A Level designer and Unity developer with experience in gamedev.
-          </p>
-          <p>
-            具有游戏开发经验的关卡设计师和 Unity 开发人员。
-          </p>
-        </div>
-      </section>
+          <div class="content-text">
+            <h2>Create game worlds </h2>
+            <h2>创造游戏世界 </h2>
+            <p>
+              A Level designer and Unity developer with experience in gamedev.
+            </p>
+            <p>
+              具有游戏开发经验的关卡设计师和 Unity 开发人员。
+            </p>
+          </div>
+        </section>
+      -->
     </header>
+    
 
-<!-- Projects -->
-<section id="projects" class="project-container container">
-  <div class="division"></div>
-  <div class="content-text">
-    <h2>Projects</h2>
-    <h2>项目</h2>
-    <p>Check out some of my personal projects</p>
-    <p>查看我的一些个人项目</p>
-  </div>
+    <!-- Project 1 -->
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>P3</h2>
+        <h2>项目3</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat exercitationem at perspiciatis veritatis veniam nemo, assumenda amet accusantium sequi aperiam, distinctio nam laboriosam aliquid voluptas soluta. Similique, asperiores? Ratione.</p>
+        <div class="projectImage-container">
+          <img src="/assets/project/project 1/project1-overview.png" alt="project1-overview">
+          <img src="/assets/project/project 1/project1-1.png" alt="project1-1">
+          <img src="/assets/project/project 1/project1-2.png" alt="project1-2">
+          <img src="/assets/project/project 1/project1-3.png" alt="project1-3">
+        </div>
+        <div class="projectVideo-container">
+          <video id="project1Video" controls>
+            <source src="/assets/project/project 1/project1Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
 
- 
+      <a
+      class="nav-link btn btn-primary"
+      href="/assets/project/project 1/Scale_Tattoine.zip" download="DanilLobanovProject_StarWar.zip"
+    >download build 作品下载</a>
 
-</section>
+    </section>
 
-
-   
     <script src="js/script.js"></script>
   </body>
 </html>

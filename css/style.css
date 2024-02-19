@@ -206,6 +206,37 @@ body {
   left: 10px;
 }
 
+hr{
+  height: 3px; /* 设置横线高度 */
+  border: 0; /* 清除默认边框 */
+  background: linear-gradient(to right, rgba(255, 0, 0, 0), #f00, #00f,rgba(0, 0, 255, 0)); /* 横向渐变 */
+  margin: 20px auto; /* 设置上下边距 */
+  width: 50%; /* 设置分割线长度 */
+}
+
+.projectImage-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectImage-container img {
+  width: calc(50% - 20px); /* 每行显示两张图片，设置图片宽度 */
+  margin: 10px; /* 设置图片间距 */
+}
+
+@media screen and (min-width: 768px) {
+  .image-container img {
+    width: calc(25% - 20px); /* 每行显示四张图片，设置图片宽度 */
+  }
+}
+
+video {
+  max-width: 75%; /* 设置视频最大宽度为父容器宽度 */
+  height: auto; /* 高度自适应 */
+  object-fit: contain; /* 保持原始宽高比，视频会完全显示在容器内，可能会留白 */
+}
+
 /* Footer */
 #footer {
   background: #111111;
@@ -231,7 +262,7 @@ body {
 }
 
 #footer .email {
-  margin: 1.1rem 0;
+  margin: 0.7rem 0;
 }
 
 #footer .social {
