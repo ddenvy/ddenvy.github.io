@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +20,8 @@
         
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/utilities.css" />
-      </head>
+  </head>
+
   <body>
     <header id="hero">
       <!-- Navbar -->
@@ -29,7 +30,7 @@
           <!-- Logo -->
           <h1 id="logo">
             <a href="index.html#"
-              ><img src="./assets/logo.png" alt="Your Logo"
+              ><img src="./assets/header/logo.png" alt="Your Logo"
             /></a>
           </h1>
           <!-- Navbar links -->
@@ -50,8 +51,8 @@
             <div class="theme-switch">
               <input type="checkbox" id="switch" />
               <label class="toggle-icons" for="switch">
-                <img class="moon" src="assets/moon.svg" />
-                <img class="sun" src="assets/sun.svg" />
+                <img class="moon" src="assets/header/moon.svg" />
+                <img class="sun" src="assets/header/sun.svg" />
               </label>
             </div>
             <!-- Hamburger menu -->
@@ -63,46 +64,67 @@
           </div>
         </div>
       </nav>
-
-      <section class="header-container">
-        <img
+      <!-- Self-intro -->
+      <!--
+        <section class="header-container">
+          <img
           class="profile-image"
           src="assets/profile-image.jpg"
           alt=""
-        />
-        <h1>Hi I'm Danny</h1>
-        <h1>嗨，我是达尼</h1>
+          />
 
-        <div class="content-text">
-          <h2>Create game worlds </h2>
-          <h2>创造游戏世界 </h2>
+          <h1>Hi I'm Danny</h1>
+          <h1>嗨，我是达尼</h1>
 
-          <p>
-            A Level designer and Unity developer with experience in gamedev.
-          </p>
-          <p>
-            具有游戏开发经验的关卡设计师和 Unity 开发人员。
-          </p>
-        </div>
-      </section>
+          <div class="content-text">
+            <h2>Create game worlds </h2>
+            <h2>创造游戏世界 </h2>
+            <p>
+              A Level designer and Unity developer with experience in gamedev.
+            </p>
+            <p>
+              具有游戏开发经验的关卡设计师和 Unity 开发人员。
+            </p>
+          </div>
+        </section>
+      -->
     </header>
+    
 
-<!-- Projects -->
-<section id="projects" class="project-container container">
-  <div class="division"></div>
-  <div class="content-text">
-    <h2>Projects</h2>
-    <h2>项目</h2>
-    <p>Check out some of my personal projects</p>
-    <p>查看我的一些个人项目</p>
-  </div>
+    <!-- Project 1 -->
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Star Wars Mos Aisley"</h2>
+        <h2>星球大战-莫斯艾斯</h2>
+        <hr>
+        <p>该项目旨在展示关卡设计中的规模
+          可能性。通过不断改变玩家移动方向的向量，
+          使 玩 家 在 即 使 实 际 空 间 非 常 小 的 关 卡 中
+          (80x80)也能体验别样趣味,产生关卡规模
+          很大的错觉。此外，我还设计走廊回环等布局
+          变化，增加游戏趣味和难度。</p>
+        <div class="projectImage-container">
+          <img src="/assets/project/project 1/project1-overview.png" alt="project1-overview">
+          <img src="/assets/project/project 1/project1-1.png" alt="project1-1">
+          <img src="/assets/project/project 1/project1-2.png" alt="project1-2">
+          <img src="/assets/project/project 1/project1-3.png" alt="project1-3">
+        </div>
+        <div class="projectVideo-container">
+          <video id="project1Video" controls>
+            <source src="/assets/project/project 1/project1Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
 
- 
+      <a
+        class="nav-link btn btn-primary"
+        href="/assets/project/project 1/Scale_Tattoine.zip" download="DanilLobanovProject_StarWar.zip"
+      >download build 作品下载</a>
+      
+    </section>
 
-</section>
-
-
-   
     <script src="js/script.js"></script>
   </body>
 </html>

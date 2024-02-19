@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +20,8 @@
         
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/utilities.css" />
-      </head>
+  </head>
+
   <body>
     <header id="hero">
       <!-- Navbar -->
@@ -29,7 +30,7 @@
           <!-- Logo -->
           <h1 id="logo">
             <a href="index.html#"
-              ><img src="./assets/logo.png" alt="Your Logo"
+              ><img src="./assets/header/logo.png" alt="Your Logo"
             /></a>
           </h1>
           <!-- Navbar links -->
@@ -50,8 +51,8 @@
             <div class="theme-switch">
               <input type="checkbox" id="switch" />
               <label class="toggle-icons" for="switch">
-                <img class="moon" src="assets/moon.svg" />
-                <img class="sun" src="assets/sun.svg" />
+                <img class="moon" src="assets/header/moon.svg" />
+                <img class="sun" src="assets/header/sun.svg" />
               </label>
             </div>
             <!-- Hamburger menu -->
@@ -63,46 +64,69 @@
           </div>
         </div>
       </nav>
-
-      <section class="header-container">
-        <img
+      <!-- Self-intro -->
+      <!--
+        <section class="header-container">
+          <img
           class="profile-image"
           src="assets/profile-image.jpg"
           alt=""
-        />
-        <h1>Hi I'm Danny</h1>
-        <h1>嗨，我是达尼</h1>
+          />
 
-        <div class="content-text">
-          <h2>Create game worlds </h2>
-          <h2>创造游戏世界 </h2>
+          <h1>Hi I'm Danny</h1>
+          <h1>嗨，我是达尼</h1>
 
-          <p>
-            A Level designer and Unity developer with experience in gamedev.
-          </p>
-          <p>
-            具有游戏开发经验的关卡设计师和 Unity 开发人员。
-          </p>
-        </div>
-      </section>
+          <div class="content-text">
+            <h2>Create game worlds </h2>
+            <h2>创造游戏世界 </h2>
+            <p>
+              A Level designer and Unity developer with experience in gamedev.
+            </p>
+            <p>
+              具有游戏开发经验的关卡设计师和 Unity 开发人员。
+            </p>
+          </div>
+        </section>
+      -->
     </header>
+    
 
-<!-- Projects -->
-<section id="projects" class="project-container container">
-  <div class="division"></div>
-  <div class="content-text">
-    <h2>Projects</h2>
-    <h2>项目</h2>
-    <p>Check out some of my personal projects</p>
-    <p>查看我的一些个人项目</p>
-  </div>
+    <!-- Project 1 -->
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Space Gas Station</h2>
+        <h2>太空加油站</h2>
+        <hr>
+        <p>该项目是一个小型的第三人称潜行
+          模式关卡，是为全球范围内的关卡设计师进行
+          竞赛而设计的。玩家的任务是潜入太空加油
+          站，通过消灭/躲避敌人等方式通过关卡，到
+          达控制中心，完成偷取太空汽油为私人飞船加
+          油的任务。本人独立设计并创建整个太空世
+          界，使用了布置块为触发器和剧情场景编写了
+          脚本。</p>
+        <div class="projectImage-container">
+          <img src="/assets/project/project 2/project2-overview.png" alt="project2-overview">
+          <img src="/assets/project/project 2/project2-1.png" alt="project2-1">
+          <img src="/assets/project/project 2/project2-2.png" alt="project2-2">
+          <img src="/assets/project/project 2/project2-3.png" alt="project2-3">
+        </div>
+        <div class="projectVideo-container">
+          <video id="project1Video" controls>
+            <source src="/assets/project/project 1/project1Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
 
- 
+      <a
+        class="nav-link btn btn-primary"
+        href="/assets/project/project 1/Scale_Tattoine.zip" download="DanilLobanovProject_StarWar.zip"
+      >download build 作品下载</a>
 
-</section>
+    </section>
 
-
-   
     <script src="js/script.js"></script>
   </body>
 </html>
