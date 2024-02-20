@@ -126,5 +126,19 @@
     </section>
 
     <script src="js/script.js"></script>
+    <script>
+      const switchInput = document.getElementById('switch');
+      const logoImage = document.querySelector('#logo img');
+
+      switchInput.addEventListener('change', () => {
+        if (document.documentElement.getAttribute('data-theme') === 'dark') {
+          // Если тема - темная, измените логотип на другой
+          logoImage.src = './assets/header/logo2.png';
+        } else {
+          // В противном случае верните обычный логотип
+          logoImage.src = './assets/header/logo.png';
+        }
+      });
+    </script>
   </body>
 </html>
